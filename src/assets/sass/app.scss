@@ -1,0 +1,104 @@
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+body{
+  font: normal 12px 'Open Sans', sans-serif;
+  background: #e6ebee;
+}
+
+/* HEADER */
+
+.header{
+  background: #1c2f3b;
+  padding: 12px 0;
+
+  .container{
+    padding: 0 35px;
+  }
+
+  .logo{
+    color: #FFF;
+  }
+}
+
+/* BOTOES */
+
+.btn-add{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: url(../img/ico-add.png) no-repeat;
+}
+
+.btn-delete{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(../img/ico-del.png) no-repeat;
+}
+
+/* FORMS */
+
+.input-search{
+  font-size: 12px;
+  border: solid 1px #e2e2e2;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+.form-label{
+  vertical-align: middle;
+  line-height: 33px;
+  font-size: 14px;
+  text-align: right;
+}
+
+/* CONTENT */
+
+.content{
+  padding: 15px 0;
+
+  article{
+    padding: 20px;
+    background: #FFF;
+    border-radius: 5px;
+
+    header{
+      padding-bottom: 10px;
+      border-bottom: solid 1px #9fcce5;
+      margin-bottom: 30px;
+
+      h1{
+        margin-top: 0;
+        padding-top: 3px;
+        font-weight:300;
+        font-size: 21px;
+        color: #0081c0;
+  
+        .btn-add{
+          vertical-align: middle;
+        }
+      }
+    }
+
+    .table{
+      thead{
+        font-weight: bold;
+      }
+      tbody tr{
+        td{
+          height: 40px;
+        }
+        &:hover{
+          .btn-delete{display: inline-block;}
+        }
+      }      
+      .btn-delete{
+        display: none;
+      }
+    }
+
+    
+  }
+}

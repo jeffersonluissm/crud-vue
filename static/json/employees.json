@@ -1,0 +1,19 @@
+{
+  "employees": [
+    {
+      "ID": 1,
+      "Name": "Jefferson Mariano",
+      "CompaniesID": 1
+    },
+    {
+      "ID": 2,
+      "Name": "Mauricio Ricardo",
+      "CompaniesID": 1
+    },
+    {
+      "ID": 3,
+      "Name": "Fulano de Tal",
+      "CompaniesID": 2
+    }
+  ]
+}
